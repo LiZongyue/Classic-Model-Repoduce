@@ -12,7 +12,7 @@ Target
   Word Num.:       [4, 12, 24, 17, 9, 7, 7, 26, 7, 18, 18, 8, 8, 5, 25, 3]  
   Response Words: a b e g h i i j i n n p p u z <EOS>
   
- # xswl, zheng jia peng niu bi!
+ ### xswl, zheng jia peng niu bi!
  -------------------
  
  Introduce to some used Tensorflow class and/or methods:
