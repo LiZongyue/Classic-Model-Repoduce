@@ -13,3 +13,16 @@ Target
   Response Words: a b e g h i i j i n n p p u z <EOS>
   
  # xswl, zheng jia peng niu bi!
+ 
+ Introduce to some used Tensorflow class and/or methods:
+ 
+ 1. TrainingHelper  
+ [tensorflow Document](https://www.tensorflow.org/api_docs/python/tf/contrib/seq2seq/TrainingHelper)  
+  It's a strategy of Teacher Forcing. It means that by training decoder we don't        feed output of t-1 to the input of t in decoder, but use target as the input of decoder.  
+  Return object helper, which could be the paramter as BasicDecoder.
+ 
+ 2. GreedyEmbeddingHelper  
+ [tensorflow Document](https://www.tensorflow.org/api_docs/python/tf/contrib/seq2seq/GreedyEmbeddingHelper)  
+ Different from TrainingHelper, it feeds the output of t-1 to the input of t in decoder.
+ 
+ 
