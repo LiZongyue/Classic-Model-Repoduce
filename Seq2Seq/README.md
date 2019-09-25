@@ -14,8 +14,10 @@ Target
   
  ### xswl, zheng jia peng niu bi!
  -------------------
+ #### IF YOU CANNOT OPEN THE .IPYNB FILE, YOU CAN USE [LINK](https://nbviewer.jupyter.org/) TO OPEN IT.   
+ --------  
  
- Introduce to some used Tensorflow class and/or methods:
+ ## Introduce to some used Tensorflow class and/or methods:
  
  1. TrainingHelper  
  [tensorflow Document](https://www.tensorflow.org/api_docs/python/tf/contrib/seq2seq/TrainingHelper)  
