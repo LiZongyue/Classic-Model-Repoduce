@@ -27,5 +27,4 @@ Target
  Different from TrainingHelper, it feeds the output of t-1 to the input of t in decoder.
  
 ![image](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Seq2Seq/Images/v2-162d4ff280e1261544de57920eeab6e0_hd.jpg)
-> [Image Source](https://zhuanlan.zhihu.com/p/47929039)  
-知乎用户：王岳王院长
+
