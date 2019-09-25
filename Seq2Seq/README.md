@@ -14,7 +14,9 @@ Target
   
  ### xswl, zheng jia peng niu bi!
  -------------------
- #### IF YOU CANNOT OPEN THE .IPYNB FILE, YOU CAN USE [LINK](https://nbviewer.jupyter.org/) TO OPEN IT.   
+ #### IF YOU CANNOT OPEN THE .IPYNB FILE, YOU CAN USE [LINK](https://nbviewer.jupyter.org/) TO OPEN IT.  
+ How: copy the link of .ipynb from Github and paste it into the above shown website.
+ 
  --------  
  
  ## Goal of the model:  
