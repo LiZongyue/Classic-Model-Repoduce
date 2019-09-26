@@ -1,4 +1,4 @@
-# Reproduce some basic Machine Learning Model
+# Reproduce some basic Machine Learning Models
 
 ## Introduction:
 
@@ -6,7 +6,7 @@ In this file, all models will be implemented with Tensorflow rather than with Sc
 
 With Tensorflow, you will have a brief intuition how does the model actually work and thus figure out its mechanism.
 
-But it is still a TOYS (Doge/)
+But they are still a TOYS (Doge/)
 
 ----
 
