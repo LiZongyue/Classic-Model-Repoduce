@@ -1,8 +1,14 @@
-# Reproduce some basic Machine Learning Model with Tensorflow instead of Scikit-Learn
+# Reproduce some basic Machine Learning Model
+
+## Introduction:
+
+In this file, all models will be implemented with Tensorflow rather than with Scikit-Learn, because model.fit() is really boring and you can learn nothing from it. 
+
+With Tensorflow, you will have a brief intuition how does the model actually work and thus figure out its mechanism.
+
+But it is still a TOYS (Doge/)
 
 ----
-
-TOYS WARNING(Doge/)
 
 1. Random Forest [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/RandomForrest.ipynb)
 
