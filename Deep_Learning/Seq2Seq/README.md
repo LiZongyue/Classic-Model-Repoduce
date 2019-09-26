@@ -33,6 +33,6 @@ Target
  [tensorflow Document](https://www.tensorflow.org/api_docs/python/tf/contrib/seq2seq/GreedyEmbeddingHelper)  
  Different from TrainingHelper, it feeds the output of t-1 to the input of t in decoder.
  
-![image](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Seq2Seq/Images/v2-162d4ff280e1261544de57920eeab6e0_hd.jpg)  
+![image](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Deep_Learning/Seq2Seq/Images/v2-162d4ff280e1261544de57920eeab6e0_hd.jpg)  
 > Difference between using Teacher Forceing and not using.  
 
