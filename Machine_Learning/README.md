@@ -6,11 +6,12 @@ In this file, all models will be implemented with Tensorflow rather than with Sc
 
 With Tensorflow, you will have a brief intuition how does the model actually work and thus figure out its mechanism.
 
-But they are still a TOYS (Doge/)
+But they are still TOYS (Doge/)
 
 ----
 
 1. Random Forest [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/RandomForrest.ipynb)
+2. GBDT[Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/GBDT.ipynb)
 
 -----
 # Keep Updating
