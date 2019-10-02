@@ -1,4 +1,4 @@
-# Reproduce some basic Machine Learning Models
+# Reproduce some Machine Learning Models
 
 ## Introduction:
 
