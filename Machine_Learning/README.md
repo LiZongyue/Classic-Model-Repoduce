@@ -2,9 +2,9 @@
 
 ## Introduction:
 
-In this file, all models will be implemented with Tensorflow rather than with Scikit-Learn, because model.fit() is really boring and you can learn nothing from it. 
+In this file, all models will be implemented in Tensorflow Framework rather than with Scikit-Learn, because model.fit() is really boring and you can learn nothing from it. 
 
-With Tensorflow, you will have a brief intuition how does the model actually work and thus figure out its mechanism.
+In Tensorflow, you will have a brief intuition how does the model actually work and thus figure out its mechanism.
 
 But they are still TOYS (Doge/)
 
