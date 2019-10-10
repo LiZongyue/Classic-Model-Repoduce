@@ -37,7 +37,7 @@ A tuple consisting of:
 >> - `cluster_centers_initialized`: scalar indicating whether clusters have been initialized.  
 >> - `init_op`: an op to initialize the clusters.  
 >> - `training_op`: an op that runs an iteration of training.    
-4. Word2vec [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/Word2vec.ipynb)
+4. Word2vec [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/Word2vec.ipynb) || Dataset: Wiki articles collection (Download in 3. cell)
 
 -----
 # Keep Updating
