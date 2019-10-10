@@ -24,8 +24,8 @@ TF Version : 1.14.0
 > - `num_classes`: The number of classes in a classification problem, or the number of dimensions in the output of a regression problem.
 > - `num_features`: The number of input features.
 > - `num_trees`: The number of trees to create. Defaults to 100. There usually isn't any accuracy gain from using higher values.
-2. GBDT[Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/GBDT.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
-3. KMeans[Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/K-Means.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
+2. GBDT [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/GBDT.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
+3. KMeans [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/K-Means.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
 > ##### Some used TF methods:
 > KMeans.training_graph() : [TF API training_graph()](https://www.tensorflow.org/versions/r1.14/api_docs/python/tf/contrib/factorization/KMeans)
 >> Generate a training graph for kmeans algorithm.  
@@ -36,7 +36,8 @@ A tuple consisting of:
 >> - `scores`: Similar to cluster_idx but specifies the distance to the assigned cluster instead.  
 >> - `cluster_centers_initialized`: scalar indicating whether clusters have been initialized.  
 >> - `init_op`: an op to initialize the clusters.  
->> - `training_op`: an op that runs an iteration of training.  
+>> - `training_op`: an op that runs an iteration of training.    
+4. Word2vec [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/Word2vec.ipynb)
 
 -----
 # Keep Updating
