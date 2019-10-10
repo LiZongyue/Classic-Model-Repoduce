@@ -17,17 +17,17 @@ TF Version : 1.14.0
 ----
 
 1. Random Forest [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/RandomForrest.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
-> ##### Some used TF methods:  
-> 1. params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams [SourceCode](https://github.com/tensorflow/tensorflow/tree/r1.14/tensorflow/contrib/tensor_forest)    
-&ensp;(num_classes=2, num_features=10, regression=False,  
-&ensp;num_trees=50, max_nodes=1000)
+> #### Some used TF methods:  
+> ##### 1. params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams [SourceCode](https://github.com/tensorflow/tensorflow/tree/r1.14/tensorflow/contrib/tensor_forest)    
+> ##### &ensp;(num_classes=2, num_features=10, regression=False,  
+> ##### &ensp;num_trees=50, max_nodes=1000)
 > - `num_classes`: The number of classes in a classification problem, or the number of dimensions in the output of a regression problem.
 > - `num_features`: The number of input features.
 > - `num_trees`: The number of trees to create. Defaults to 100. There usually isn't any accuracy gain from using higher values.
 2. GBDT [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/GBDT.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
 3. KMeans [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/K-Means.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
-> ##### Some used TF methods:
-> 1. KMeans.training_graph() : [TF API training_graph()](https://www.tensorflow.org/versions/r1.14/api_docs/python/tf/contrib/factorization/KMeans)
+> #### Some used TF methods:
+> ##### 1. KMeans.training_graph() : [TF API training_graph()](https://www.tensorflow.org/versions/r1.14/api_docs/python/tf/contrib/factorization/KMeans)
 > Generate a training graph for kmeans algorithm.  
 Returns:
 A tuple consisting of:
