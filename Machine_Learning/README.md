@@ -18,7 +18,7 @@ TF Version : 1.14.0
 
 1. Random Forest [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/RandomForrest.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
 > ##### Some used TF methods:  
-> params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams [SourceCode](https://github.com/tensorflow/tensorflow/tree/r1.14/tensorflow/contrib/tensor_forest)    
+> 1. params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams [SourceCode](https://github.com/tensorflow/tensorflow/tree/r1.14/tensorflow/contrib/tensor_forest)    
 &ensp;(num_classes=2, num_features=10, regression=False,  
 &ensp;num_trees=50, max_nodes=1000)
 > - `num_classes`: The number of classes in a classification problem, or the number of dimensions in the output of a regression problem.
@@ -27,16 +27,16 @@ TF Version : 1.14.0
 2. GBDT [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/GBDT.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
 3. KMeans [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/K-Means.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
 > ##### Some used TF methods:
-> KMeans.training_graph() : [TF API training_graph()](https://www.tensorflow.org/versions/r1.14/api_docs/python/tf/contrib/factorization/KMeans)
->> Generate a training graph for kmeans algorithm.  
+> 1. KMeans.training_graph() : [TF API training_graph()](https://www.tensorflow.org/versions/r1.14/api_docs/python/tf/contrib/factorization/KMeans)
+> Generate a training graph for kmeans algorithm.  
 Returns:
 A tuple consisting of:
->> - `all_scores`: A matrix (or list of matrices) of dimensions (num_input, num_clusters) where the value is the distance of an input vector and a cluster center.  
->> - `cluster_idx`: A vector (or list of vectors). Each element in the vector corresponds to an input row in 'inp' and specifies the cluster id corresponding to the input.  
->> - `scores`: Similar to cluster_idx but specifies the distance to the assigned cluster instead.  
->> - `cluster_centers_initialized`: scalar indicating whether clusters have been initialized.  
->> - `init_op`: an op to initialize the clusters.  
->> - `training_op`: an op that runs an iteration of training.    
+> - `all_scores`: A matrix (or list of matrices) of dimensions (num_input, num_clusters) where the value is the distance of an input vector and a cluster center.  
+> - `cluster_idx`: A vector (or list of vectors). Each element in the vector corresponds to an input row in 'inp' and specifies the cluster id corresponding to the input.  
+> - `scores`: Similar to cluster_idx but specifies the distance to the assigned cluster instead.  
+> - `cluster_centers_initialized`: scalar indicating whether clusters have been initialized.  
+> - `init_op`: an op to initialize the clusters.  
+> - `training_op`: an op that runs an iteration of training.    
 4. Word2vec [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/Word2vec.ipynb) || DataSet: Wiki articles collection (Download in 3. cell)  
 5. Word2Vec via U Stanford CS224n [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/exploring_word_vectors.ipynb) || DataSet: Files from the specified Reuter's category.
 
