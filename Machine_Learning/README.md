@@ -16,6 +16,9 @@ TF Version : 1.14.0
 
 ----
 
+Common used:  
+`from __future__ import print_function` : To bring the print function from Pyhton3 to Python2.6+. `__future__` statements need to be near the top of the file because they change fundamental things about the language, and so the compiler needs to know about them from the beginning. 
+
 1. Random Forest [Notebook](https://github.com/LiZongyue/Classic-Model-Reproduce/blob/master/Machine_Learning/RandomForrest.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
 > #### Some used TF methods:  
 > ##### 1. params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams [SourceCode](https://github.com/tensorflow/tensorflow/tree/r1.14/tensorflow/contrib/tensor_forest)    
