@@ -59,7 +59,10 @@ A EstimatorSpec object.
 > ##### 2. tf.estimator.Estimator()  [TF API Estimator()](https://www.tensorflow.org/api_docs/python/tf/estimator/Estimator)  
 > The Estimator object wraps a model which is specified by a `model_fn`, which, given inputs and a number of other parameters, returns the ops necessary to perform training, evaluation, or predictions.  
 > - `model_fn` as defined in the script, it is mainly to define `train_op`, `loss`, `optimizer` for training; `loss`, `acc_op` for evaluation; `prediction` for prediction.   
-Returns:  
+
+
+
+> Returns:  
 > a wraped model. For training, model.train will automatically assign the value `tf.estimator.ModeKeys.TRAIN` to the mode parameter. At the same, `tf,estimator.ModeKeys.PREDICT` and `tf.estimator.ModeKeys.EVAL` will also be assigned to `mode` if model.predict and tf.model.evaluate are called.  
 -----
 # Keep Updating
