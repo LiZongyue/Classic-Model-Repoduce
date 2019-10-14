@@ -57,7 +57,7 @@ A EstimatorSpec object.
 > - `train_op`: Op for the training step.  
 > - `eval_metrics_ops`: Dict of metric results keyed by name. The values of the dict can be one of the following: (1) instance of Metric class. (2) Results of calling a metric function, namely a (metric_tensor, update_op) tuple. metric_tensor should be evaluated without any impact on state (typically is a pure computation results based on variables.). For example, it should not trigger the update_op or requires any input fetching.  
 > ##### 2. tf.estimator.Estimator()  [TF API Estimator()](https://www.tensorflow.org/api_docs/python/tf/estimator/Estimator)  
-> The Estimator object wraps a model which is specified by a `model_fn`, which, given inputs and a number of other parameters, returns the ops necessary to perform training, evaluation, or predictions.  
+> The Estimator object wraps a model which is specified by a `model_fn`, which, given inputs and a number of other parameters, returns the ops necessary to perform training, evaluation, or predictions and at the mean time, Estimator builds the graph of model while running `model_fn()`.    
 > - `model_fn` as defined in the script, it is mainly to define `train_op`, `loss`, `optimizer` for training; `loss`, `acc_op` for evaluation; `prediction` for prediction.   
 >
 > Returns:  
