@@ -1,7 +1,12 @@
 # basic Seq2Seq Model
 -------
-## Tensorflow version 1.14.0
-
+> This Model is implemented in Tensorflow version 1.14.0  
+## Goal of the model:  
+ Give a word as input, it will output a sequence which contains all characters of input in alphabetical order.  
+ 
+ 
+ 
+A simple Instance of Prediction:  
 Original INPUT: zhengjiapengniubi  
 
 Source  
@@ -18,9 +23,6 @@ Target
  
  --------  
  
- ## Goal of the model:  
- Give a word as input, it will output a sequence which contains all characters of input in alphabetical order.
- 
  ## Basic Knowlegde to Seq2Seq:  
  
  0. RNN(LSTM) Structure:    
@@ -31,7 +33,11 @@ Target
  ![RNN](https://github.com/LiZongyue/Classic-Model-Reproduce-in-Tensorflow/blob/master/Deep_Learning/Seq2Seq/Images/rnn.png)   
  ![RNN_Cell](https://github.com/LiZongyue/Classic-Model-Reproduce-in-Tensorflow/blob/master/Deep_Learning/Seq2Seq/Images/cell.png)  
  ![RNN_Cell_Expansion](https://github.com/LiZongyue/Classic-Model-Reproduce-in-Tensorflow/blob/master/Deep_Learning/Seq2Seq/Images/cellexpansion.png)  
- 
+ 1. Seq2Seq Model Structure:  
+ ![Seq2Seq](https://github.com/LiZongyue/Classic-Models-Reproduce-in-Tensorflow/blob/master/Deep_Learning/Seq2Seq/Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191015204836.png)  
+ The above showed image illustrates a Seq2Seq Model for machine translation.  In each Seq2Seq Model, there are 2 parts which are `Encoder` and `Decoder`.  
+ - `Encoder` : left side of the hidden state arrow  
+ - `Decoder` : right side of the hidden state arrow
  
  ## Introduce to some used Tensorflow class and/or methods:  
  0. tf.contrib.layers.embed_sequence(input_data, source_vocab_size, encoding_embedding_size)  
