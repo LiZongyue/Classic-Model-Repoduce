@@ -1,6 +1,11 @@
 # basic Seq2Seq Model
--------
-> This Model is implemented in Tensorflow version 1.14.0  
+
+> This Model is implemented in Tensorflow version 1.14.0    
+ -------------------
+ #### Important Hints: IF YOU CANNOT OPEN THE .IPYNB FILE, YOU CAN USE [LINK](https://nbviewer.jupyter.org/) TO OPEN IT.  
+ How: copy the link of .ipynb from Github and paste it into the above shown website.
+ 
+ --------   
 ## Goal of the model:  
  Give a word as input, it will output a sequence which contains all characters of input in alphabetical order.  
  
@@ -17,11 +22,7 @@ Target
   Word Num.:       [4, 12, 24, 17, 9, 7, 7, 26, 7, 18, 18, 8, 8, 5, 25, 3]  
   Response Words: a b e g h i i j i n n p p u z <EOS>
   
- -------------------
- #### Important Hints: IF YOU CANNOT OPEN THE .IPYNB FILE, YOU CAN USE [LINK](https://nbviewer.jupyter.org/) TO OPEN IT.  
- How: copy the link of .ipynb from Github and paste it into the above shown website.
- 
- --------  
+
  
  ## Basic Knowlegde to Seq2Seq:  
  
