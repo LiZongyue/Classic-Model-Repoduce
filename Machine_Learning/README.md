@@ -97,7 +97,7 @@ Returns:
 
 
 
-Common used:  
+### Common used:  
 `from __future__ import print_function` : To bring the print function from Pyhton3 to Python2.6+. `__future__` statements need to be near the top of the file because they change fundamental things about the language, and so the compiler needs to know about them from the beginning. 
 
 
