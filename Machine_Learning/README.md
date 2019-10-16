@@ -20,8 +20,7 @@ __IF YOU CANNOT OPEN THE .IPYNB FILE, YOU CAN USE [LINK](https://nbviewer.jupyte
 
 ----
 
-Common used:  
-`from __future__ import print_function` : To bring the print function from Pyhton3 to Python2.6+. `__future__` statements need to be near the top of the file because they change fundamental things about the language, and so the compiler needs to know about them from the beginning. 
+
 
 
 ## Catalog:  
@@ -94,6 +93,13 @@ Returns:
 
 Returns:  
  &ensp;a wraped model. For training, model.train will automatically assign the value `tf.estimator.ModeKeys.TRAIN` to the mode parameter. At the same, `tf,estimator.ModeKeys.PREDICT` and `tf.estimator.ModeKeys.EVAL` will also be assigned to `mode` if model.predict and tf.model.evaluate are called.  
+
+
+
+
+Common used:  
+`from __future__ import print_function` : To bring the print function from Pyhton3 to Python2.6+. `__future__` statements need to be near the top of the file because they change fundamental things about the language, and so the compiler needs to know about them from the beginning. 
+
 
 -----
 __Keep Updating__
