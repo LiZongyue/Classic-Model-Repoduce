@@ -37,6 +37,8 @@ __IF YOU CANNOT OPEN THE .IPYNB FILE, YOU CAN USE [LINK](https://nbviewer.jupyte
 &ensp;[Some used TF methods](#word2vec-via-u-stanford-cs224n)  
 6. Convolutional Neural Network [Notebook](https://github.com/LiZongyue/Classic-Models-Reproduce-in-Tensorflow/blob/master/Machine_Learning/CNN.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)  
 &ensp;[Some used TF methods and classes](#convolutional-neural-network)  
+7. Tensorboard Visualize [Notebook](https://github.com/LiZongyue/Classic-Models-Reproduce-in-Tensorflow/blob/master/Machine_Learning/Tensorboard.ipynb) || DataSet : [MNIST](https://en.wikipedia.org/wiki/MNIST_database)   
+&ensp;[Some used TF methods](#tensorboard-visualize)  
 
 
 ## Used APIs  
@@ -94,7 +96,11 @@ Returns:
 Returns:  
  &ensp;a wraped model. For training, model.train will automatically assign the value `tf.estimator.ModeKeys.TRAIN` to the mode parameter. At the same, `tf,estimator.ModeKeys.PREDICT` and `tf.estimator.ModeKeys.EVAL` will also be assigned to `mode` if model.predict and tf.model.evaluate are called.  
 
+### Tensorboard Visualize:  
 
+&ensp;1. Results:  
+![acc](https://github.com/LiZongyue/Classic-Models-Reproduce-in-Tensorflow/blob/master/Deep_Learning/Seq2Seq/Images/acc.png)  
+![loss](https://github.com/LiZongyue/Classic-Models-Reproduce-in-Tensorflow/blob/master/Deep_Learning/Seq2Seq/Images/loss.png)
 
 
 ### Common used:  
