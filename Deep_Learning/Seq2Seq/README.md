@@ -1,12 +1,21 @@
 # basic Seq2Seq Model
 
-> This Model is implemented in Tensorflow version 1.14.0    
+![Seq2Seq](https://github.com/LiZongyue/Classic-Models-Reproduce-in-Tensorflow/blob/master/Deep_Learning/Seq2Seq/Images/seq2seq.png)
+This Model is implemented in Tensorflow version 1.14.0    
+
  -------------------
- #### Important Hints: IF YOU CANNOT OPEN THE .IPYNB FILE, YOU CAN USE [LINK](https://nbviewer.jupyter.org/) TO OPEN IT.  
+ __Important Hints: IF YOU CANNOT OPEN THE .IPYNB FILE, YOU CAN USE [LINK](https://nbviewer.jupyter.org/) TO OPEN IT.__  
  How: copy the link of .ipynb from Github and paste it into the above shown website.
  
  --------   
-## Goal of the model:  
+ 
+## Table of Contents:  
+- [Introduction](#introduction)  
+- [Basic Knowledge to Seq2Seq](#basic-knowledge-to-seq2seq)
+- [Introduction to some used Tensorflow classes or methods](#introduction-to-some-used-tensorflow-classes-or-methods)  
+
+
+## Introduction:  
  Give a word as input, it will output a sequence which contains all characters of input in alphabetical order.  
  
  
@@ -24,7 +33,7 @@ Target
   
 
  
- ## Basic Knowlegde to Seq2Seq:  
+ ## Basic Knowledge to Seq2Seq:  
  
  0. RNN(LSTM) Structure:    
  Explanation :  
@@ -40,7 +49,7 @@ Target
  - `Encoder` : left side of the hidden state arrow  
  - `Decoder` : right side of the hidden state arrow
  
- ## Introduce to some used Tensorflow class and/or methods:  
+ ## Introduction to some used Tensorflow classes or methods:  
  0. tf.contrib.layers.embed_sequence(input_data, source_vocab_size, encoding_embedding_size)  
  [tensorflow Document](https://www.tensorflow.org/versions/r1.14/api_docs/python/tf/contrib/layers/embed_sequence?hl=eo)   
  It returns a Tensor of [input_data_size, source_vocab_size, encoding_embedding_size] with embedded sequences.
